@@ -195,7 +195,6 @@ bool tcp_client::conn()
 		return false;
 	}
 
-	printf("FUNCTION2  C O N N E C T E D ! ! !\n");
 	IsConnected = true;
 	return true;
 }

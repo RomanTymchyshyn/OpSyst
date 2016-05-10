@@ -83,8 +83,8 @@ int main()
 	Client client1 = INVALID_SOCKET;
 	Client client2 = INVALID_SOCKET;
 		
-	const LPCWSTR path1 = TEXT("D:\\Projects\\OS.Lab2\\Main\\Debug\\Function1.exe");
-	const LPCWSTR path2 = TEXT("D:\\Projects\\OS.Lab2\\Main\\Debug\\Function1.exe");
+	const LPCWSTR path1 = TEXT("..\\x64\\Debug\\Function1.exe");
+	const LPCWSTR path2 = TEXT("..\\x64\\Debug\\Function1.exe");
 
 	const LPWSTR args1 = L"-func fLoop -arg 3";
 	const LPWSTR args2 = L"-func g0 -arg 4";
